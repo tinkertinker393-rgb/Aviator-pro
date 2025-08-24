@@ -1,0 +1,118 @@
+body {
+  background: #181818;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+}
+.aviator-ui {
+  width: 300px;
+  background: #111;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px #0009;
+  margin-bottom: 20px;
+}
+.aviator-header {
+  padding: 10px;
+  background: radial-gradient(circle at center, #0a0a0a, #111);
+  text-align: center;
+}
+.aviator-history {
+  color: #bada55;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.aviator-current-multiplier {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin: 6px 0;
+}
+.aviator-crash-graph {
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(to top right, transparent 30%, #f00 100%);
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  position: relative;
+}
+.aviator-plane {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  fill: #f00;
+}
+.aviator-bet-controls {
+  padding: 10px;
+  background: #222;
+  margin-top: 6px;
+}
+.aviator-amount-controls {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.aviator-amount-minus,
+.aviator-amount-plus {
+  background: #222;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.aviator-amount-input {
+  width: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background: #181818;
+  color: #fff;
+}
+.aviator-presets {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  color: #888;
+  font-size: 12px;
+}
+.aviator-bet-btn {
+  background: #0a0;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.aviator-bet-btn:hover {
+  background: #0c0;
+}
+.aviator-footer {
+  background: #111;
+  padding: 10px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+.aviator-footer-nav {
+  background: none;
+  border: none;
+  color: #666;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.aviator-footer-nav:last-child {
+  margin-right: 0;
+}
